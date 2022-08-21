@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 1 - Cuy Universe | About</title>
+</head>
+<style>
+    @font-face {
+        font-family: Memek;
+        src: url(../Assets/FallingSkyBlackOblique-j37y.otf);
+    }
+
+    input {
+        width: 90%;
+        padding: 20px 0;
+        margin: 5px;
+        border-radius: 22px;
+        border: 2px solid black;
+        background-color: black;
+        color:  white;
+        font-family: Memek;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    input:hover {
+        color: black;
+        background-color: white;
+    }
+
+    input:active {
+        background-color: blue;
+        color: white;
+    }
+</style>
+<body style="
+    margin: 0;
+    padding: 0;
+    font-family: Memek;
+">
+    <nav style="
+        display: flex;
+        padding: 20px 0;
+        width: 100%;
+        height: 30px;
+        background-color: blue;
+        justify-content: center;
+    ">
+        <ul style="
+            display: flex;
+            gap: 20px;
+            color: white;
+            list-style: none;
+            align-items: center;
+        ">
+            <li><a href="../Index.html" style="color: white; text-decoration: none; font-size: 35px;">Home</a></li>
+            <li><a href="About/Index.html" style="color: white; text-decoration: none; font-size: 35px;">About</a></li>
+            <li><a href="https://www.youtube.com/watch?v=QDia3e12czc" style="color: white; text-decoration: none; font-size: 35px;">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container" style="
+        width: 40%;
+        height: auto;
+        border-radius: 22px;
+        background-color: aliceblue;
+        border: 1px solid rgb(155, 155, 155);
+        margin: auto;
+        overflow: hidden;
+    ">
+        <div class="header" style="text-align: center;">
+            <h3>About Me</h3>
+            <hr style="
+                width: 30%;
+                border: 2px solid gray;
+                background-color: gray;
+                border-radius: 22px;
+            ">
+            <p>Name: Muhamad Rizky Ibrahim</p>
+            <p>Umur: 13</p>
+            <p>Kelas: 8 - SMP</p>
+            <div class="btnLink">
+                <input type="button" value="Instagram - @abim.kena.satir" onclick="ig()">
+                <input type="button" value="Github - @HiiIamDev" onclick="gh()">
+            </div>
+            <br>
+        </div>
+    </div>
+    <!-- Href -->
+    <script>
+        const ig = () => {
+            window.location.href = "https://instagram.com/abim.kena.satir/"
+        }
+
+        const gh = () => {
+            window.location.href = "https://github.com/hiiiamdev/"
+        }
+    </script>
+</body>
+</html>
